@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 207, 207);
+}
+
+.customlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 600;
+  background-color: rgb(101, 101, 202);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+  border: 2px solid rgb(68, 68, 68);
+}
+
+.btn--purp {
+  background-color: rgb(101, 101, 202);
+  border: 1px solid rgb(68, 68, 68);
+}
+
+.btn--purp:hover {
+  background-color: rgb(94, 94, 94);
+  border: 1px solid rgb(68, 68, 68);
+}
